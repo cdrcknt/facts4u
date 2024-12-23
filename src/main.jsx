@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Loader2, BookOpen, RefreshCw } from 'lucide-react';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from '.src/lib/App.jsx'
+import './index.css'
 
 const categories = [
   'random',
@@ -125,4 +129,9 @@ const FunFactsApp = () => {
   );
 };
 
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  )
 export default FunFactsApp;
