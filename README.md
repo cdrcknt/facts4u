@@ -6,7 +6,7 @@ A web application that generates random interesting facts across various categor
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/fun-facts-generator.git
+git clone https://github.com/cdrcknt/facts4u.git
 cd fun-facts-generator
 ```
 
